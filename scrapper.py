@@ -30,5 +30,5 @@ def scrapper_func(var):
     for x, y, g in zip(title, year, genre):
         print(f'Название : {x}, Год выпуска : {y}, Жанр : {g}', end='\n' * 2)
 
-
-scrapper_func('m')
+if __name__ == '__main__':          #Проверка парсера
+    scrapper_func('m')
